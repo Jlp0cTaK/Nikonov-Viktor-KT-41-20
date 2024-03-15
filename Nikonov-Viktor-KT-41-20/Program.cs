@@ -5,6 +5,8 @@ using Nikonov_Viktor_KT_41_20.Data;
 using Nikonov_Viktor_KT_41_20.Models;
 using Microsoft.AspNetCore.Diagnostics;
 
+using static Nikonov_Viktor_KT_41_20.ServiceExtensions.ServiceExtensions;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -22,7 +24,7 @@ try
 
     builder.Services.AddDbContext<TeachersDbContext>(opt => opt.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-    //builder.Services.AddServices();
+    builder.Services.AddServices();
 
     var app = builder.Build();
 

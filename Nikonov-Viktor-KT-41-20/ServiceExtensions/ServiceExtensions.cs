@@ -1,5 +1,5 @@
 ﻿using Nikonov_Viktor_KT_41_20.Interfaces.TeachersInterfaces;
-namespace hlebnikov_sergey_kt_41_20.ServiceExtensions
+namespace Nikonov_Viktor_KT_41_20.ServiceExtensions
 {
     public static class ServiceExtensions
     {

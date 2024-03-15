@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Nikonov-Viktor-KT-41-20")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+50b7121314462ca479aca3901c9da4f167f31c98")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+17d641ffe01df9983de6377a0967b63de4f00438")]
 [assembly: System.Reflection.AssemblyProductAttribute("Nikonov-Viktor-KT-41-20")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Nikonov-Viktor-KT-41-20")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
