@@ -21,6 +21,8 @@ namespace Nikonov_Viktor_KT_41_20.Controllers
         [HttpGet(Name = "GetWeatherForecast")]
         public IEnumerable<WeatherForecast> Get()
         {
+            _logger.LogError("Method was called!");
+
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
                 Date = DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
@@ -28,6 +30,17 @@ namespace Nikonov_Viktor_KT_41_20.Controllers
                 Summary = Summaries[Random.Shared.Next(Summaries.Length)]
             })
             .ToArray();
+        }
+
+        [HttpPost(Name = "AddNewSummary")]
+
+        public string[] AddNewSummary(string NewSummary)
+        {
+            _logger.LogError("Method was called!");
+
+            var list = Summaries.ToList();
+            list.Add(NewSummary);
+            return list.ToArray();
         }
     }
 }

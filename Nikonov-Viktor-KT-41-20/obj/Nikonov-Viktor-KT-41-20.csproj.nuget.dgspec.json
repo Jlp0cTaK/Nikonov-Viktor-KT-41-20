@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vikto\\source\\Repos\\Nikonov-Viktor-KT-41-20\\Nikonov-Viktor-KT-41-20\\Nikonov-Viktor-KT-41-20.csproj": {}
+    "C:\\Users\\vikto\\source\\Repos\\Niknov-Viktor-KT-41-20\\Nikonov-Viktor-KT-41-20\\Nikonov-Viktor-KT-41-20.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vikto\\source\\Repos\\Nikonov-Viktor-KT-41-20\\Nikonov-Viktor-KT-41-20\\Nikonov-Viktor-KT-41-20.csproj": {
+    "C:\\Users\\vikto\\source\\Repos\\Niknov-Viktor-KT-41-20\\Nikonov-Viktor-KT-41-20\\Nikonov-Viktor-KT-41-20.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vikto\\source\\Repos\\Nikonov-Viktor-KT-41-20\\Nikonov-Viktor-KT-41-20\\Nikonov-Viktor-KT-41-20.csproj",
+        "projectUniqueName": "C:\\Users\\vikto\\source\\Repos\\Niknov-Viktor-KT-41-20\\Nikonov-Viktor-KT-41-20\\Nikonov-Viktor-KT-41-20.csproj",
         "projectName": "Nikonov-Viktor-KT-41-20",
-        "projectPath": "C:\\Users\\vikto\\source\\Repos\\Nikonov-Viktor-KT-41-20\\Nikonov-Viktor-KT-41-20\\Nikonov-Viktor-KT-41-20.csproj",
+        "projectPath": "C:\\Users\\vikto\\source\\Repos\\Niknov-Viktor-KT-41-20\\Nikonov-Viktor-KT-41-20\\Nikonov-Viktor-KT-41-20.csproj",
         "packagesPath": "C:\\Users\\vikto\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vikto\\source\\Repos\\Nikonov-Viktor-KT-41-20\\Nikonov-Viktor-KT-41-20\\obj\\",
+        "outputPath": "C:\\Users\\vikto\\source\\Repos\\Niknov-Viktor-KT-41-20\\Nikonov-Viktor-KT-41-20\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Soft\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -48,6 +48,32 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[7.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[7.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[7.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.17, )"
+            },
+            "NLog.Web.AspNetCore": {
+              "target": "Package",
+              "version": "[5.3.8, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.11, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
